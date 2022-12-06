@@ -9,4 +9,5 @@ def get_marker_pos(num_unique):
             marker_found = len(set(tmp[-num_unique:])) == num_unique
     return(len(tmp))
 
+print(get_marker_pos(4))
 print(get_marker_pos(14))
